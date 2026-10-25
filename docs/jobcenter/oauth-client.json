@@ -1,0 +1,10 @@
+{
+  "client_id": "https://glowbig.github.io/jobcenter/oauth-client.json",
+  "client_name": "JobCenter",
+  "client_uri": "https://github.com/Glowbig",
+  "redirect_uris": ["http://localhost:3000/api/magneto/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "ALL"
+}
